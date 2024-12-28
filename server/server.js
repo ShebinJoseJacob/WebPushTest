@@ -25,7 +25,7 @@ webPush.setVapidDetails(
 let subscriptions = [];
 
 app.get('/', (req, res) => {
-    res.send('Server is running');
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.post('/subscribe', (req, res) => {
