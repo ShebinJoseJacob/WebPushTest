@@ -11,8 +11,8 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 // Generate VAPID keys using `web-push generate-vapid-keys`
 const vapidKeys = {
-    publicKey: 'BFtX42XNx31EmwuVegKXPhX6bW8AiVOEACYRmB6Lz1-uAAee7IIF5YXX8e7U4fNzYe6x2GNkP8YYPq9sdyXVu10',
-    privateKey: 'U0oflm5ZMaeVnV-4pn5hX3s2sueA1V64TzhesGojwAI',
+    publicKey: 'BG88JGfZ36naDj2eX_bgCyA46pNiJXqu1m4yHQ_3y0WIPOlB_Pa5cJBikj7PQFc0KbecDmbK8OEz6PnmXuRNJB4',
+    privateKey: '9zdgj4zeHTYUaKweDm7JrKv5Hj_GEt7de9nQdmV5c4s',
 };
 
 // Configure web-push
