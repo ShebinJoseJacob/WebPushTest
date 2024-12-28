@@ -27,7 +27,7 @@ document.getElementById('notify').addEventListener('click', async () => {
     });
 
     // Send subscription to server
-    await fetch('https://push-ej51.onrender.com/subscribe', {
+    await fetch('https://webpushtest-g2gd.onrender.com/subscribe', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
